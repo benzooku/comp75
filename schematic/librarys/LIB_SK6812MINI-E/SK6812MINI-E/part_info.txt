@@ -1,0 +1,9 @@
+Manufacturer=Yellow Stone Corp.
+PartNumber=SK6812MINI-E
+PartCategory=LED
+PackageCategory=Other
+PinCount=4
+Version=1.4
+Released=2020-07-03 11:55:35
+Downloaded=2023-10-11 20:05:51
+3D=Y

@@ -1,0 +1,130 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SK6812MINI-E"
+   (description "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)")
+   (family "DIO")
+   (package "SK6812MINIE")
+   (attribute "Datasheet Link" "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf")
+   (attribute "Geometry.Height" "1.88mm")
+   (attribute "Manufacturer_Name" "Yellow Stone Corp.")
+   (attribute "Manufacturer_Part_Number" "SK6812MINI-E")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "SK6812MINI-E")
+    (pin "VDD" 1 PS)
+    (pin "DOUT" 2 PS)
+    (pin "GND" 3 PS)
+    (pin "DIN" 4 PS)
+   )
+  )
+  (symbol "SK6812MINI-E"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SK6812MINIE"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.6 -1.4)
+      (pt 1.6 -1.4)
+      (pt 1.6 1.4)
+      (pt -1.6 1.4)
+      (pt -1.6 -1.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.25 1.4)
+      (pt 1.25 1.4)
+      (pt 1.25 1.4)
+      (pt -1.25 1.4)
+      (pt -1.25 1.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.25 -1.4)
+      (pt 1.25 -1.4)
+      (pt 1.25 -1.4)
+      (pt -1.25 -1.4)
+      (pt -1.25 -1.4))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.15 2.4)
+      (pt 4.4 2.4)
+      (pt 4.4 -2.4)
+      (pt -5.15 -2.4)
+      (pt -5.15 2.4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.1 0.7)
+      (arc (pt -4.100 0.700) (pt -4.150 0.700) (pt -4.050 0.800) (start 180.0) (sweep -90.0))
+      (pt -4.1 0.8)
+      (arc (pt -4.100 0.800) (pt -4.150 0.700) (pt -4.050 0.800) (start 180.0) (sweep 90.0))
+      (pt -4.1 0.7)
+      (arc (pt -4.100 0.700) (pt -4.150 0.700) (pt -4.050 0.800) (start 180.0) (sweep -90.0))
+      (pt -4.1 0.8))))
+   (leg 1 (pt -2.500 0.750) (padstack 0))
+   (leg 2 (pt -2.500 -0.750) (padstack 0))
+   (leg 3 (pt 2.500 -0.750) (padstack 0))
+   (leg 4 (pt 2.500 0.750) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.820 1.800 0 0 0.000))
+   )
+   (model "SK6812MINI-E.stp"
+    (euler 90 0 0)
+    (offset 0 0 0.550000011920929)
+   )
+  )
+ )
+)

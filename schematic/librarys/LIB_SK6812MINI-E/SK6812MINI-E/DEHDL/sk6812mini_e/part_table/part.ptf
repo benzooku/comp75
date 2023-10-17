@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SK6812MINI_E'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Yellow Stone Corp.", "SK6812MINI-E" (!) = "", "SK6812MINIE", "Other", "", "", "", "", "3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)", "http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf", "1.88 mm"
+END_PART
+
+END.

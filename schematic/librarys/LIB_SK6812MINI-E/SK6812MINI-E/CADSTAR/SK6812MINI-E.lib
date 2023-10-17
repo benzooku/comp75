@@ -1,0 +1,18 @@
+.SK6812MINI-E :1 ;3.2x2.8x1.78 mm 0.2W Intelligent external control surface mount SMD LED (MSL:5a)
+SK6812MINIE
+*STM LED
+*NGS
+*PLB 1="VDD" 2="DOUT" 3="GND" 4="DIN"
+*MXP 4
+*DFN SK6812MINI-E
+~!Manufacturer_Name (Yellow Stone Corp.)
+~!Manufacturer_Part_Number (SK6812MINI-E)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://yushakobo.jp/ds/YS-SK6812MINI-E.pdf)
+~!Height (1.88mm)
+~!3D_Model (SK6812MINI-E)
+SK6812MINI-E
+1.1!U 2.1!U 3.1!U 4.1!U 

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SK6812MINIE"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SK6812MINIE")
+        (spec "default")
+    )
+)
