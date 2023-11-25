@@ -1,0 +1,12 @@
+file_format: "1"
+id: karat
+name: karat
+type: board
+arch: arm
+features:
+  - keys
+  - underglow
+outputs:
+  - usb
+  - ble
+url: https://www.nordicsemi.com/Products/Development-hardware/nrf52840-dk
